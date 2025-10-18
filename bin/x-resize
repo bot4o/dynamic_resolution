@@ -57,3 +57,4 @@ function x_resize() {
 
 echo "Resize Event: $(date)" | tee -a $LOG_FILE
 x_resize
+sudo systemctl restart spice-vdagentd.service
